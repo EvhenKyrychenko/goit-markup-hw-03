@@ -39,14 +39,13 @@ img{
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* display: flex; */
 } 
 
                   /* --------STUDIO----------- */
 /* Header */
 
 .main{
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 .header-content{
   display: flex;
@@ -138,7 +137,6 @@ img{
   text-transform: uppercase;
   color: #FFFFFF;
   
-  display: flex;
   width: 696px;
   margin: 0 auto;
   
@@ -254,10 +252,9 @@ margin-bottom: 10px;
 .our-team {
   background: var(--second-bg-color);
   padding-bottom: var(--main-top-padding);
-}
-.our-team .section-title{
   padding-top: var(--main-top-padding);
 }
+
 .our-team-title{
   font-weight: 500;
   font-size: 16px;
@@ -327,18 +324,18 @@ color: rgba(255, 255, 255, 0.6);
 
 /* HEADER */
 .portfolio{
-  border: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
 }
 
 /* MAIN */
 .menu{
   color: var(--first-bg-color);
   padding-bottom: var(--main-top-padding);
+  padding-top: var(--main-top-padding);
 }
 .menu-list{
   display: flex;
   justify-content: center;
-  margin-top: var(--main-top-padding);
   margin-bottom: 50px;
 }
 
